@@ -17,6 +17,6 @@ func readfile(filename string) {
         log.Panicf("failed reading data from file: %s", err)
   }
 
-  fmt.Println("\nFile Name: %s", filename)
-  fmt.Println("\nSize: %d bytes", len(data))
+  fmt.Println("File Name:", filename)
+  fmt.Println("Size: ", len(data), "bytes")
  }
